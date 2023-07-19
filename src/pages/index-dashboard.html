@@ -1,0 +1,1149 @@
+<!DOCTYPE html>
+<html
+  lang="en"
+  class="light-style layout-menu-fixed"
+  dir="ltr"
+  data-theme="theme-default"
+  data-assets-path="../assets/"
+  data-template="vertical-menu-template-free"
+>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"
+    />
+    <title>Dashboard | ELCH - Onboarding Automation</title>
+    <meta name="description" content="" />
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="../assets/images/favicon/favicon.ico"
+    />
+  </head>
+  <body>
+    <!-- Layout wrapper -->
+    <div class="layout-wrapper layout-content-navbar">
+      <div class="layout-container">
+        <!-- Side Menu -->
+
+        <div class="elch-includes" elch-include-html="sidebar.html"></div>
+
+        <!-- / Side Menu -->
+
+        <!-- Layout container -->
+        <div class="layout-page">
+          <!-- Navbar -->
+          <nav
+            class="layout-navbar container-xxl navbar navbar-expand-xl navbar-detached align-items-center bg-navbar-theme"
+            id="layout-navbar"
+          >
+            <div
+              class="layout-menu-toggle navbar-nav align-items-xl-center me-3 me-xl-0 d-xl-none"
+            >
+              <a
+                class="nav-item nav-link px-0 me-xl-4"
+                href="javascript:void(0)"
+              >
+                <i class="bx bx-menu bx-sm"></i>
+              </a>
+            </div>
+
+            <div
+              class="navbar-nav-right d-flex align-items-center"
+              id="navbar-collapse"
+            >
+              <!-- Search -->
+              <!-- <div class="navbar-nav align-items-center">
+                <div class="nav-item d-flex align-items-center">
+                  <i class="bx bx-search fs-4 lh-0"></i>
+                  <input
+                    type="text"
+                    class="form-control border-0 shadow-none"
+                    placeholder="Search..."
+                    aria-label="Search..."
+                  />
+                </div>
+              </div> -->
+              <!-- /Search -->
+
+              <ul class="navbar-nav flex-row align-items-center ms-auto">
+                <!-- User -->
+                <li class="nav-item navbar-dropdown dropdown-user dropdown">
+                  <a
+                    class="nav-link dropdown-toggle hide-arrow"
+                    href="javascript:void(0);"
+                    data-bs-toggle="dropdown"
+                  >
+                    <div
+                      class="avatar avatar-online w-px-40 h-auto rounded-circle"
+                    >
+                      <img
+                        class="rounded-circle"
+                        src="../assets/images/avatars/1.png"
+                      />
+                    </div>
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-end">
+                    <li>
+                      <a class="dropdown-item" href="#">
+                        <div class="d-flex">
+                          <div class="flex-shrink-0 me-3">
+                            <div
+                              class="avatar avatar-online w-px-40 rounded-circle"
+                            ></div>
+                          </div>
+                          <div class="flex-grow-1">
+                            <span class="fw-semibold d-block"
+                              >Gaurav Sharma</span
+                            >
+                            <small class="text-muted">Moderator </small>
+                          </div>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <div class="dropdown-divider"></div>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">
+                        <i class="bx bx-user me-2"></i>
+                        <span class="align-middle">My Profile</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">
+                        <i class="bx bx-cog me-2"></i>
+                        <span class="align-middle">My Logs</span>
+                      </a>
+                    </li>
+                    <li>
+                      <div class="dropdown-divider"></div>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="auth-login-basic.html">
+                        <i class="bx bx-power-off me-2"></i>
+                        <span class="align-middle">Log Out</span>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <!--/ User -->
+              </ul>
+            </div>
+          </nav>
+          <!-- / Navbar -->
+
+          <!-- Content wrapper -->
+          <div class="content-wrapper">
+            <!-- Content -->
+            <div class="container-xxl flex-grow-1 container-p-y">
+              <div class="row">
+                <div class="col-lg-12 mb-4 order-0">
+                  <div class="card">
+                    <div class="d-flex align-items-end row">
+                      <div class="col-sm-7">
+                        <div class="card-body">
+                          <h5 class="card-title text-primary">Hi Gaurav!</h5>
+                          <p class="mb-4">
+                            Today you have <span class="fw-bold">127</span> more
+                            candidates to Onboard.
+                          </p>
+                          <a
+                            href="javascript:;"
+                            class="btn btn-sm btn-outline-primary"
+                            >Refresh Data</a
+                          >
+                        </div>
+                      </div>
+                      <div class="col-sm-5 text-center text-sm-left">
+                        <div class="card-body pb-0 px-0 px-md-4">
+                          <img
+                            src="../assets/images/illustrations/man-with-laptop-light01.jpg"
+                            height="140"
+                            alt="View Badge User"
+                            data-app-dark-img="illustrations/man-with-laptop-light01.jpg"
+                            data-app-light-img="illustrations/man-with-laptop-light01.jpg"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-12 order-0">
+                  <!-- Transection Details -->
+                  <div class="row">
+                    <div class="col-12 col-md-8 col-lg-12 order-3 order-md-2">
+                      <div class="row">
+                        <div class="col-lg-3 col-md-12 col-6 mb-4">
+                          <div class="card">
+                            <div class="card-body">
+                              <div
+                                class="card-title d-flex align-items-start justify-content-between"
+                              >
+                                <div
+                                  class="avatar avatar-chart flex-shrink-0 rounded"
+                                ></div>
+                                <div class="dropdown">
+                                  <button
+                                    class="btn p-0"
+                                    type="button"
+                                    id="cardOpt3"
+                                    data-bs-toggle="dropdown"
+                                    aria-haspopup="true"
+                                    aria-expanded="false"
+                                  >
+                                    <i class="bx bx-dots-vertical-rounded"></i>
+                                  </button>
+                                  <div
+                                    class="dropdown-menu dropdown-menu-end"
+                                    aria-labelledby="cardOpt3"
+                                  >
+                                    <a
+                                      class="dropdown-item"
+                                      href="javascript:void(0);"
+                                      >View More</a
+                                    >
+                                    <a
+                                      class="dropdown-item"
+                                      href="javascript:void(0);"
+                                      >Delete</a
+                                    >
+                                  </div>
+                                </div>
+                              </div>
+                              <span class="fw-semibold d-block mb-1"
+                                >Total Candidates Deployed (2023)</span
+                              >
+                              <h3 class="card-title mb-2">323</h3>
+                              <small class="text-success fw-semibold"
+                                ><i class="bx bx-up-arrow-alt"></i> +17%</small
+                              >
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-3 col-md-12 col-6 mb-4">
+                          <div class="card">
+                            <div class="card-body">
+                              <div
+                                class="card-title d-flex align-items-start justify-content-between"
+                              >
+                                <div
+                                  class="avatar avatar-creditcard flex-shrink-0 rounded"
+                                ></div>
+                                <div class="dropdown">
+                                  <button
+                                    class="btn p-0"
+                                    type="button"
+                                    id="cardOpt6"
+                                    data-bs-toggle="dropdown"
+                                    aria-haspopup="true"
+                                    aria-expanded="false"
+                                  >
+                                    <i class="bx bx-dots-vertical-rounded"></i>
+                                  </button>
+                                  <div
+                                    class="dropdown-menu dropdown-menu-end"
+                                    aria-labelledby="cardOpt6"
+                                  >
+                                    <a
+                                      class="dropdown-item"
+                                      href="javascript:void(0);"
+                                      >View More</a
+                                    >
+                                    <a
+                                      class="dropdown-item"
+                                      href="javascript:void(0);"
+                                      >Delete</a
+                                    >
+                                  </div>
+                                </div>
+                              </div>
+                              <span>Total Candidates Available</span>
+                              <h3 class="card-title text-nowrap mb-1">400</h3>
+                              <small class="text-success fw-semibold"
+                                ><i class="bx bx-up-arrow-alt"></i> +45%</small
+                              >
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-3 col-md-12 col-6 mb-4">
+                          <div class="card">
+                            <div class="card-body">
+                              <div
+                                class="card-title d-flex align-items-start justify-content-between"
+                              >
+                                <div
+                                  class="avatar avatar-creditcard flex-shrink-0 rounded"
+                                ></div>
+                                <div class="dropdown">
+                                  <button
+                                    class="btn p-0"
+                                    type="button"
+                                    id="cardOpt4"
+                                    data-bs-toggle="dropdown"
+                                    aria-haspopup="true"
+                                    aria-expanded="false"
+                                  >
+                                    <i class="bx bx-dots-vertical-rounded"></i>
+                                  </button>
+                                  <div
+                                    class="dropdown-menu dropdown-menu-end"
+                                    aria-labelledby="cardOpt4"
+                                  >
+                                    <a
+                                      class="dropdown-item"
+                                      href="javascript:void(0);"
+                                      >View More</a
+                                    >
+                                    <a
+                                      class="dropdown-item"
+                                      href="javascript:void(0);"
+                                      >Delete</a
+                                    >
+                                  </div>
+                                </div>
+                              </div>
+                              <span class="d-block mb-1"
+                                >Total Revenue Earned</span
+                              >
+                              <h3 class="card-title text-nowrap mb-2">
+                                $2,456
+                              </h3>
+                              <small class="text-danger fw-semibold"
+                                ><i class="bx bx-down-arrow-alt"></i>
+                                -14.82%</small
+                              >
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-3 col-md-12 col-6 mb-4">
+                          <div class="card">
+                            <div class="card-body">
+                              <div
+                                class="card-title d-flex align-items-start justify-content-between"
+                              >
+                                <div
+                                  class="avatar avatar-creditcard flex-shrink-0 rounded"
+                                ></div>
+                                <div class="dropdown">
+                                  <button
+                                    class="btn p-0"
+                                    type="button"
+                                    id="cardOpt1"
+                                    data-bs-toggle="dropdown"
+                                    aria-haspopup="true"
+                                    aria-expanded="false"
+                                  >
+                                    <i class="bx bx-dots-vertical-rounded"></i>
+                                  </button>
+                                  <div
+                                    class="dropdown-menu"
+                                    aria-labelledby="cardOpt1"
+                                  >
+                                    <a
+                                      class="dropdown-item"
+                                      href="javascript:void(0);"
+                                      >View More</a
+                                    >
+                                    <a
+                                      class="dropdown-item"
+                                      href="javascript:void(0);"
+                                      >Delete</a
+                                    >
+                                  </div>
+                                </div>
+                              </div>
+                              <span class="fw-semibold d-block mb-1"
+                                >Projects Available</span
+                              >
+                              <h3 class="card-title mb-2">24</h3>
+                              <small class="text-success fw-semibold"
+                                ><i class="bx bx-up-arrow-alt"></i>
+                                +28.14%</small
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!--/ Transection Details -->
+                </div>
+                <div class="col-lg-12 mb-4 order-0">
+                  <!-- Striped Rows -->
+                  <div class="card">
+                    <!-- <h5 class="card-header">Candidates Table</h5> -->
+                    <div class="col-xl">
+                      <div class="card mb-4">
+                        <div
+                          class="card-header d-flex justify-content-between align-items-center"
+                        >
+                          <h5 class="mb-0">Candidates Table</h5>
+                          <div class="row">
+                            <div class="col-md-10 float-end">
+                              <div class="btn-group">
+                                <button
+                                  type="button"
+                                  class="btn btn-primary dropdown-toggle"
+                                  data-bs-toggle="dropdown"
+                                  data-bs-display="static"
+                                  aria-haspopup="true"
+                                  aria-expanded="false"
+                                >
+                                  Please select the Project
+                                </button>
+                                <ul
+                                  class="dropdown-menu dropdown-menu-start dropdown-menu-lg-end"
+                                >
+                                  <li>
+                                    <button
+                                      class="dropdown-item"
+                                      type="button"
+                                      data-bs-toggle="collapse"
+                                      data-bs-target="#projectDetails"
+                                      aria-expanded="false"
+                                      aria-controls="projectDetails"
+                                    >
+                                      Project One [12345678]
+                                    </button>
+                                  </li>
+                                  <li>
+                                    <button
+                                      class="dropdown-item"
+                                      type="button"
+                                      data-bs-toggle="collapse"
+                                      data-bs-target="#projectDetails"
+                                      aria-expanded="false"
+                                      aria-controls="projectDetails"
+                                    >
+                                      Project Two [12345678
+                                    </button>
+                                  </li>
+                                  <li>
+                                    <button class="dropdown-item" type="button">
+                                      Project Three [12345678
+                                    </button>
+                                  </li>
+                                  <li>
+                                    <button class="dropdown-item" type="button">
+                                      Project Four [12345678
+                                    </button>
+                                  </li>
+                                  <li>
+                                    <button class="dropdown-item" type="button">
+                                      Project Five [12345678
+                                    </button>
+                                  </li>
+                                  <li>
+                                    <button class="dropdown-item" type="button">
+                                      Project Six [12345678
+                                    </button>
+                                  </li>
+                                  <li>
+                                    <button class="dropdown-item" type="button">
+                                      Project Seven [12345678
+                                    </button>
+                                  </li>
+                                  <li>
+                                    <button class="dropdown-item" type="button">
+                                      Project Eight [12345678
+                                    </button>
+                                  </li>
+                                  <li>
+                                    <button class="dropdown-item" type="button">
+                                      Project Nine [12345678
+                                    </button>
+                                  </li>
+                                  <li>
+                                    <button class="dropdown-item" type="button">
+                                      Project Ten [12345678
+                                    </button>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row collapse" id="projectDetails">
+                          <div class="col-12">
+                            <div class="card">
+                              <div class="card-body">
+                                <div
+                                  class="card-title d-flex align-items-start justify-content-between"
+                                >
+                                  <div class="flex-shrink-0">
+                                    <strong
+                                      >You have selected Project Star Acdemy
+                                      [#12345678]</strong
+                                    >
+                                  </div>
+                                </div>
+                                <div class="row">
+                                  <div class="col">
+                                    <span class="fw-semibold d-block mb-1"
+                                      >Current Team Strength</span
+                                    >
+                                    <h3 class="card-title text-success mb-2">
+                                      28
+                                    </h3>
+                                  </div>
+                                  <div class="col">
+                                    <span class="fw-semibold d-block mb-1"
+                                      >Total Candidates Required</span
+                                    >
+                                    <h3 class="card-title text-light mb-2">
+                                      8
+                                    </h3>
+                                  </div>
+                                  <div class="col">
+                                    <span class="fw-semibold d-block mb-1"
+                                      >Total Freshers Deployed</span
+                                    >
+                                    <h3 class="card-title text-success mb-2">
+                                      6
+                                    </h3>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- SAP ID, Name, email, contact, location, band, skill, graduation specialization, college tier, status  -->
+                    <div class="table-responsive text-nowrap">
+                      <table class="table table-striped table-bordered">
+                        <thead>
+                          <tr>
+                            <th>SAP ID</th>
+                            <th>Employee Name</th>
+                            <th>Email</th>
+                            <th>Contact No.</th>
+                            <th>Location</th>
+                            <th>Band</th>
+                            <th>Skill</th>
+                            <th>Grad. Spec</th>
+                            <th>College Tier</th>
+                            <th>Status</th>
+                            <th>Assign Project</th>
+                          </tr>
+                        </thead>
+                        <tbody class="table-border-bottom-0">
+                          <tr>
+                            <td>
+                              <input
+                                type="text"
+                                class="form-control shadow-none"
+                                placeholder="Search SAP ID"
+                                aria-label="Search SAP ID"
+                              />
+                            </td>
+                            <td>
+                              <input
+                                type="text"
+                                class="form-control shadow-none"
+                                placeholder="Search Employee Name"
+                                aria-label="Search Employee Name"
+                              />
+                            </td>
+                            <td>
+                              <input
+                                type="text"
+                                class="form-control shadow-none"
+                                placeholder="Search Email"
+                                aria-label="Search Email"
+                              />
+                            </td>
+                            <td>
+                              <input
+                                type="text"
+                                class="form-control shadow-none"
+                                placeholder="Search Contact No."
+                                aria-label="Search Contact No."
+                              />
+                            </td>
+                            <td>
+                              <input
+                                type="text"
+                                class="form-control shadow-none"
+                                placeholder="Search Location "
+                                aria-label="Search Location"
+                              />
+                            </td>
+                            <td>
+                              <input
+                                type="text"
+                                class="form-control shadow-none"
+                                placeholder="Search Band "
+                                aria-label="Search Band"
+                              />
+                            </td>
+                            <td>
+                              <input
+                                type="text"
+                                class="form-control shadow-none"
+                                placeholder="Search Skill "
+                                aria-label="Search Skill"
+                              />
+                            </td>
+                            <td>
+                              <input
+                                type="text"
+                                class="form-control shadow-none"
+                                placeholder="Search Specialization "
+                                aria-label="Search Specialization"
+                              />
+                            </td>
+                            <td>
+                              <input
+                                type="text"
+                                class="form-control shadow-none"
+                                placeholder="Search College Tier "
+                                aria-label="Search College Tier"
+                              />
+                            </td>
+                            <td>
+                              <input
+                                type="text"
+                                class="form-control shadow-none"
+                                placeholder="Search Status"
+                                aria-label="Search Status"
+                              />
+                            </td>
+                            <td>&nbsp;</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <i
+                                class="fab fa-angular fa-lg text-danger me-3"
+                              ></i>
+                              <strong>12345678</strong>
+                            </td>
+                            <td>Nisha Singh</td>
+                            <td>nisha-singh@hcl.com</td>
+                            <td>1234567891</td>
+                            <td>Noida</td>
+                            <td>E1.1</td>
+                            <td>Java</td>
+                            <td>Computers</td>
+                            <td>1</td>
+                            <td>
+                              <span class="badge bg-label-success me-1"
+                                >Available</span
+                              >
+                            </td>
+                            <td>
+                              <div class="form-check mt-3">
+                                <input
+                                  class="form-check-input"
+                                  type="checkbox"
+                                  value=""
+                                  id="defaultCheck1"
+                                />
+                                <label
+                                  class="form-check-label"
+                                  for="defaultCheck1"
+                                >
+                                </label>
+                              </div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <i
+                                class="fab fa-angular fa-lg text-danger me-3"
+                              ></i>
+                              <strong>12345678</strong>
+                            </td>
+                            <td>Nisha Singh</td>
+                            <td>nisha-singh@hcl.com</td>
+                            <td>1234567891</td>
+                            <td>Noida</td>
+                            <td>E1.1</td>
+                            <td>Java</td>
+                            <td>Computers</td>
+                            <td>1</td>
+                            <td>
+                              <span class="badge bg-label-success me-1"
+                                >Available</span
+                              >
+                            </td>
+                            <td>
+                              <div class="form-check mt-3">
+                                <input
+                                  class="form-check-input"
+                                  type="checkbox"
+                                  value=""
+                                  id="defaultCheck1"
+                                />
+                                <label
+                                  class="form-check-label"
+                                  for="defaultCheck1"
+                                >
+                                </label>
+                              </div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <i
+                                class="fab fa-angular fa-lg text-danger me-3"
+                              ></i>
+                              <strong>12345678</strong>
+                            </td>
+                            <td>Nisha Singh</td>
+                            <td>nisha-singh@hcl.com</td>
+                            <td>1234567891</td>
+                            <td>Noida</td>
+                            <td>E1.1</td>
+                            <td>Java</td>
+                            <td>Computers</td>
+                            <td>1</td>
+                            <td>
+                              <span class="badge bg-label-success me-1"
+                                >Available</span
+                              >
+                            </td>
+                            <td>
+                              <div class="form-check mt-3">
+                                <input
+                                  class="form-check-input"
+                                  type="checkbox"
+                                  value=""
+                                  id="defaultCheck1"
+                                />
+                                <label
+                                  class="form-check-label"
+                                  for="defaultCheck1"
+                                >
+                                </label>
+                              </div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <i
+                                class="fab fa-angular fa-lg text-danger me-3"
+                              ></i>
+                              <strong>12345678</strong>
+                            </td>
+                            <td>Veer Raj</td>
+                            <td>Veer-raj@hcl.com</td>
+                            <td>1234567891</td>
+                            <td>Pune</td>
+                            <td>E1.1</td>
+                            <td>SAP</td>
+                            <td>Commerce</td>
+                            <td>1</td>
+                            <td>
+                              <span class="badge bg-label-info me-1"
+                                >Scheduled</span
+                              >
+                            </td>
+                            <td>
+                              <div class="form-check mt-3">
+                                <input
+                                  class="form-check-input"
+                                  type="checkbox"
+                                  value=""
+                                  id="defaultCheck1"
+                                />
+                                <label
+                                  class="form-check-label"
+                                  for="defaultCheck1"
+                                >
+                                </label>
+                              </div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <i
+                                class="fab fa-angular fa-lg text-danger me-3"
+                              ></i>
+                              <strong>12345678</strong>
+                            </td>
+                            <td>Nisha Singh</td>
+                            <td>nisha-singh@hcl.com</td>
+                            <td>1234567891</td>
+                            <td>Noida</td>
+                            <td>E1.1</td>
+                            <td>Java</td>
+                            <td>Computers</td>
+                            <td>1</td>
+                            <td>
+                              <span class="badge bg-label-success me-1"
+                                >Available</span
+                              >
+                            </td>
+                            <td>
+                              <div class="form-check mt-3">
+                                <input
+                                  class="form-check-input"
+                                  type="checkbox"
+                                  value=""
+                                  id="defaultCheck1"
+                                />
+                                <label
+                                  class="form-check-label"
+                                  for="defaultCheck1"
+                                >
+                                </label>
+                              </div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <i
+                                class="fab fa-angular fa-lg text-danger me-3"
+                              ></i>
+                              <strong>12345678</strong>
+                            </td>
+                            <td>Avani Singh</td>
+                            <td>Avani-singh@hcl.com</td>
+                            <td>1234567891</td>
+                            <td>Noida</td>
+                            <td>E1.2</td>
+                            <td>javascript</td>
+                            <td>Computers</td>
+                            <td>1</td>
+                            <td>
+                              <span class="badge bg-label-warning me-1"
+                                >On Hold</span
+                              >
+                            </td>
+                            <td>
+                              <div class="form-check mt-3">
+                                <input
+                                  class="form-check-input"
+                                  type="checkbox"
+                                  value=""
+                                  id="defaultCheck1"
+                                />
+                                <label
+                                  class="form-check-label"
+                                  for="defaultCheck1"
+                                >
+                                </label>
+                              </div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <i
+                                class="fab fa-angular fa-lg text-danger me-3"
+                              ></i>
+                              <strong>12345678</strong>
+                            </td>
+                            <td>Nisha Singh</td>
+                            <td>nisha-singh@hcl.com</td>
+                            <td>1234567891</td>
+                            <td>Noida</td>
+                            <td>E1.1</td>
+                            <td>Java</td>
+                            <td>Computers</td>
+                            <td>1</td>
+                            <td>
+                              <span class="badge bg-label-success me-1"
+                                >Available</span
+                              >
+                            </td>
+                            <td>
+                              <div class="form-check mt-3">
+                                <input
+                                  class="form-check-input"
+                                  type="checkbox"
+                                  value=""
+                                  id="defaultCheck1"
+                                />
+                                <label
+                                  class="form-check-label"
+                                  for="defaultCheck1"
+                                >
+                                </label>
+                              </div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <i
+                                class="fab fa-angular fa-lg text-danger me-3"
+                              ></i>
+                              <strong>12345678</strong>
+                            </td>
+                            <td>Nisha Singh</td>
+                            <td>nisha-singh@hcl.com</td>
+                            <td>1234567891</td>
+                            <td>Noida</td>
+                            <td>E1.1</td>
+                            <td>Java</td>
+                            <td>Computers</td>
+                            <td>1</td>
+                            <td>
+                              <span class="badge bg-label-success me-1"
+                                >Available</span
+                              >
+                            </td>
+                            <td>
+                              <div class="form-check mt-3">
+                                <input
+                                  class="form-check-input"
+                                  type="checkbox"
+                                  value=""
+                                  id="defaultCheck1"
+                                />
+                                <label
+                                  class="form-check-label"
+                                  for="defaultCheck1"
+                                >
+                                </label>
+                              </div>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+
+                      <!-- New data table -->
+                      <div class="new-data-table mt-3 mb-4">
+                        <button class="load-table-data">Load Data</button>
+                        <table id="data-table">
+                          <thead>
+                            <tr>
+                              <th>Select</th>
+                              <th>
+                                UID
+                                <input
+                                  type="text"
+                                  id="filter-uid"
+                                  class="filter-table-input"
+                                />
+                              </th>
+                              <!-- <th>Project Code <input type="text" id="filter-project-code" oninput="filterTable('project-code',2)" /></th> -->
+                              <th>
+                                Project Code
+                                <input
+                                  type="text"
+                                  id="filter-project-code"
+                                  class="filter-table-input"
+                                />
+                              </th>
+                              <th>
+                                Project Name
+                                <input
+                                  type="text"
+                                  id="filter-project-name"
+                                  class="filter-table-input"
+                                />
+                              </th>
+                              <th>
+                                Project Type
+                                <input
+                                  type="text"
+                                  id="filter-project-type"
+                                  class="filter-table-input"
+                                />
+                              </th>
+                              <th>
+                                Project Strength
+                                <input
+                                  type="text"
+                                  id="filter-project-strength"
+                                  class="filter-table-input"
+                                />
+                              </th>
+                              <th>
+                                Created By
+                                <input
+                                  type="text"
+                                  id="filter-created-by"
+                                  class="filter-table-input"
+                                />
+                              </th>
+                              <th>
+                                Created Date
+                                <input
+                                  type="text"
+                                  id="filter-created-date"
+                                  class="filter-table-input"
+                                />
+                              </th>
+                              <th>
+                                End Date
+                                <input
+                                  type="text"
+                                  id="filter-end-date"
+                                  class="filter-table-input"
+                                />
+                              </th>
+                              <th>Action</th>
+                            </tr>
+                          </thead>
+                          <tbody id="data-body"></tbody>
+                        </table>
+
+                        <div>
+                          <label for="project-dropdown">Project:</label>
+                          <select id="project-dropdown">
+                            <option value="project1">Project 1</option>
+                            <option value="project2">Project 2</option>
+                            <option value="project3">Project 3</option>
+                          </select>
+                          <button class="sendSelectedRows">Send</button>
+                        </div>
+                      </div>
+                      <!-- New data table ends -->
+
+                      <div class="row">
+                        <div class="col-md-12 col-lg-12 text-center mt-3 mb-3">
+                          <!-- Collapse -->
+                          <div class="row">
+                            <div class="col-12">
+                              <div class="mx-auto" style="width: 800px">
+                                <p class="demo-inline-spacing">
+                                  <button
+                                    class="btn btn-primary me-1"
+                                    type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#assignProject"
+                                    aria-expanded="false"
+                                    aria-controls="assignProject"
+                                    disabled
+                                  >
+                                    Assign Project
+                                  </button>
+                                </p>
+                                <div class="collapse" id="assignProject">
+                                  <div class="d-grid">
+                                    <div class="row">
+                                      <div class="col-12">
+                                        <div
+                                          class="alert alert-success alert-dismissible"
+                                          role="alert"
+                                        >
+                                          Excel Data is successfully Uploaded,
+                                          Validate!
+                                          <button
+                                            type="button"
+                                            class="btn-close"
+                                            data-bs-dismiss="alert"
+                                            aria-label="Close"
+                                          ></button>
+                                        </div>
+                                      </div>
+                                      <div class="col-12">
+                                        <div
+                                          class="alert alert-danger alert-dismissible"
+                                          role="alert"
+                                        >
+                                          Row Number #20, #24, #56 is having
+                                          error in the sheet, Please correct the
+                                          data and Re-Upload!
+                                          <button
+                                            type="button"
+                                            class="btn-close"
+                                            data-bs-dismiss="alert"
+                                            aria-label="Close"
+                                          ></button>
+                                        </div>
+                                      </div>
+                                      <div class="col-12">
+                                        <button
+                                          class="btn btn-primary me-1"
+                                          type="button"
+                                          data-bs-toggle="collapse"
+                                          data-bs-target="#collapseExample"
+                                          aria-expanded="false"
+                                          aria-controls="collapseExample"
+                                        >
+                                          Download this Transection #12345678 in
+                                          Excel Format
+                                        </button>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- / Collapse -->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!--/ Striped Rows -->
+                </div>
+              </div>
+            </div>
+            <!-- / Content -->
+
+            <!-- Footer -->
+            <footer class="content-footer footer bg-footer-theme">
+              <div
+                class="container-xxl d-flex flex-wrap justify-content-between py-2 flex-md-row flex-column"
+              >
+                <div class="mb-2 mb-md-0">
+                  © By
+                  <a
+                    href="https://www.hcltech.com/"
+                    target="_blank"
+                    class="footer-link fw-bolder"
+                    >HCLTECH</a
+                  >
+                  <script>
+                    document.write(new Date().getFullYear());
+                  </script>
+                </div>
+                <div>
+                  <a
+                    href="https://www.hcltech.com//license/"
+                    class="footer-link me-4"
+                    target="_blank"
+                    >License</a
+                  >
+                  <a
+                    href="https://www.hcltech.com//"
+                    target="_blank"
+                    class="footer-link me-4"
+                    >Team</a
+                  >
+
+                  <a
+                    href="https://www.hcltech.com/"
+                    target="_blank"
+                    class="footer-link me-4"
+                    >Documentation</a
+                  >
+
+                  <a
+                    href="https://www.hcltech.com/"
+                    target="_blank"
+                    class="footer-link me-4"
+                    >Support</a
+                  >
+                </div>
+              </div>
+            </footer>
+            <!-- / Footer -->
+
+            <div class="content-backdrop fade"></div>
+          </div>
+          <!-- Content wrapper -->
+        </div>
+        <!-- / Layout page -->
+      </div>
+
+      <!-- Overlay -->
+      <div class="layout-overlay layout-menu-toggle"></div>
+    </div>
+    <div class="page-loader">
+      <div class="spinner-border text-info" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+    </div>
+    <script type="module" src="../assets/js/dashboards-analytics.js"></script>
+    <script type="module" src="../assets/js/data-table.js"></script>
+    <!-- / Layout wrapper -->
+  </body>
+</html>
